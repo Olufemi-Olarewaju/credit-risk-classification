@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* The purpose of challenge is to use supervised learning is to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
+* The purpose of challenge is to use supervised learning to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 The financial information provided by the dataset includes the following about the borrower and the loan:
   * Loan size: Size of the loan.
