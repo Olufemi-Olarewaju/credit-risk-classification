@@ -16,19 +16,21 @@ The financial information provided by the dataset includes the following about t
 
 * The target was to predict the `loan_status`.
 
-* The predictive model was built using `LogisticRegression` model and the data was resampled using the `RandomOverSampler`module.
+* The predictive model was built using the `LogisticRegression` model and the data was resampled using the `RandomOverSampler`module.
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * The model is very good at predicting if a loan will be a healthy loan (`0`) because of the high precision score of 100%, recall score of 99% and f1 score of 100%. 
+  The model is somewhat good at predicting if a loan will be a high-risk loan (`1`) because of its lower precision, recall and f1 scores when compared to the scores of a healthy loan prediction. This maybe because the model had way more label inputs for healthy loan (`0`) than high-risk (`1`) loan.
+  The original data had 30 times more label inputs for healthy loans (`0s`) than for high-risk loans (`1s`) as seen from the `label_input_ratio` variable.
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * For the second model, the label input values had to be resampled so that the number of label input values for both the healthy loans (`0s`) and for the high-risk loans (`1s`) are equal.
+
+  The second model is very good at predicting the resampled data to detect if a loan will be a healthy loan (`0`) because of the high precision score of 100%, recall score of 99% and f1 score of 100%. The model became better at predicting if a loan will be a high-risk loan (`1`) because of its higher recall and f1 scores when compared to its recall and f1 scores produced by the first model.
 
 ## Summary
 
