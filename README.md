@@ -3,8 +3,7 @@
 ## Overview of the Analysis
 
 * The purpose of challenge is to use supervised learning to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
-* Explain what financial information the data was on, and what you needed to predict.
-The financial information provided by the dataset includes the following about the borrower and the loan:
+* The financial information provided by the dataset includes the following about the borrower and the loan:
   * Loan size: Size of the loan.
   * Interest rate: Interest rate of the loan.
   * Borrower Income: Income of the borrower.
@@ -14,7 +13,7 @@ The financial information provided by the dataset includes the following about t
   * Total debt: Total debt owed by the borrower.
   * Loan Status: Indicates of the loan is a healthy one or a risky one.
 
-* The target was to predict the `loan_status`.
+* The target outcome to be predicted is the `loan_status` column.
 
 * The predictive model was built using the `LogisticRegression` model and the data was resampled using the `RandomOverSampler`module.
 
