@@ -8,10 +8,10 @@
   * Interest rate: Interest rate of the loan.
   * Borrower income: Income of the borrower.
   * Debt-to-income: Ratio of how much the borrower owe vs the borrower's income.
-  * Number of accounts: Number of loan and credit accounts
+  * Number of accounts: Number of loan and credit accounts.
   * Derogatory marks: Indicates borrower's failure to pay an outstanding debt.
   * Total debt: Total debt owed by the borrower.
-  * Loan Status: Indicates of the loan is a healthy one or a risky one.
+  * Loan Status: Indicates if the loan is a healthy one or a risky one.
 
 * The target outcome to be predicted is the `loan_status` column.
 
