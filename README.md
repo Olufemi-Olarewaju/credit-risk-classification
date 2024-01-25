@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* The purpose of this machine learning analysis is to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
+* The purpose of challenge is to use supervised learning is to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 The financial information provided by the dataset includes the following about the borrower and the loan:
   * Loan size: Size of the loan.
@@ -14,10 +14,9 @@ The financial information provided by the dataset includes the following about t
   * Total debt: Total debt owed by the borrower.
   * Loan Status: Indicates of the loan is a healthy one or a risky one.
 
+* The target was to predict the `loan_status`.
 
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+* The predictive model was built using `LogisticRegression` model and the data was resampled using the `RandomOverSampler`module.
 
 ## Results
 
