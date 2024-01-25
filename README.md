@@ -6,8 +6,8 @@
 * The financial information provided by the dataset includes the following about the borrower and the loan:
   * Loan size: Size of the loan.
   * Interest rate: Interest rate of the loan.
-  * Borrower Income: Income of the borrower.
-  * Debt-to-Income: Ratio of how much the borrower owe vs the borrower's income.
+  * Borrower income: Income of the borrower.
+  * Debt-to-income: Ratio of how much the borrower owe vs the borrower's income.
   * Number of accounts: Number of loan and credit accounts
   * Derogatory marks: Indicates borrower's failure to pay an outstanding debt.
   * Total debt: Total debt owed by the borrower.
