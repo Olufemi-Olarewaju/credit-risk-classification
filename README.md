@@ -34,8 +34,7 @@ The financial information provided by the dataset includes the following about t
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Both models seem to be very accurate at predicting most of the data points as they both had an accuracy score of 99%.
 
-If you do not recommend any of the models, please justify your reasoning.
+However, the second model seems to perform better because it had a `balanced_accuracy` of 99%, while the first model had a `balanced_accuracy` of 95% when comparing the actual target values to the predicted values returned by the model. The second model is recommended priotizes predicting both outcomes without being biased to the majority target value because both target values have been equalized.
+
