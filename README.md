@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-* The purpose of this machine learning analysis is to use logistic regrassion to build a model that can identify the creditworthiness of borrowers.
+* The purpose of this machine learning analysis is to build a model that can predict and identify the creditworthiness of future borrowers based on the known creditworthiness and information of past borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
 The financial information provided by the dataset includes the following about the borrower and the loan:
   * Loan size: Size of the loan.
