@@ -30,7 +30,7 @@ The financial information provided by the dataset includes the following about t
 * Machine Learning Model 2:
   * For the second model, the label input values had to be resampled so that the number of label input values for both the healthy loans (`0s`) and for the high-risk loans (`1s`) are equal.
 
-  The second model is very good at predicting the resampled data to detect if a loan will be a healthy loan (`0`) because of the high precision score of 100%, recall score of 99% and f1 score of 100%. The model became better at predicting if a loan will be a high-risk loan (`1`) because of its higher recall and f1 scores when compared to its recall and f1 scores produced by the first model.
+  * The second model is very good at predicting the resampled data to detect if a loan will be a healthy loan (`0`) because of the high precision score of 100%, recall score of 99% and f1 score of 100%. The model became better at predicting if a loan will be a high-risk loan (`1`) because of its higher recall and f1 scores when compared to its recall and f1 scores produced by the first model.
 
 ## Summary
 
